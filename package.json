@@ -19,7 +19,7 @@
     "decimal.js": "^7.3.0",
     "financejs": "^4.1.0",
     "fraction.js": "^4.0.4",
-    "mathjs": "^3.16.5",
+    "mathjs": "^4.2.2",
     "moment-timezone": "^0.5.14"
   },
   "devDependencies": {
