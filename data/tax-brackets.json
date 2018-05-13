@@ -1,0 +1,60 @@
+{
+  "2016": {
+    "single": [
+      { "rate": 0.1, "range": 9275 },
+      { "rate": 0.15, "range": 37650 },
+      { "rate": 0.25, "range": 91150 },
+      { "rate": 0.28, "range": 190150 },
+      { "rate": 0.33, "range": 413350 },
+      { "rate": 0.35, "range": 415050 },
+      { "rate": 0.396 }
+    ],
+    "marriedFilingJointly": [
+      { "rate": 0.1, "range": 18550 },
+      { "rate": 0.15, "range": 75300 },
+      { "rate": 0.25, "range": 151900 },
+      { "rate": 0.28, "range": 231450 },
+      { "rate": 0.33, "range": 413350 },
+      { "rate": 0.35, "range": 466950 },
+      { "rate": 0.396 }
+    ],
+    "headOfHousehold": [
+      { "rate": 0.1, "range": 13250 },
+      { "rate": 0.15, "range": 50400 },
+      { "rate": 0.25, "range": 130150 },
+      { "rate": 0.28, "range": 210800 },
+      { "rate": 0.33, "range": 413350 },
+      { "rate": 0.35, "range": 441000 },
+      { "rate": 0.396 }
+    ]
+  },
+  "2017": {
+    "single": [
+      { "rate": 0.1, "range": { "min": 0, "max": 9325 }, "baseTax": 0 },
+      { "rate": 0.15, "range": { "min": 9325, "max": 37950 }, "baseTax": 932.50 },
+      { "rate": 0.25, "range": { "min": 37950, "max": 91900 }, "baseTax": 5226.25 },
+      { "rate": 0.28, "range": { "min": 91900, "max": 191650}, "baseTax": 18713.75 },
+      { "rate": 0.33, "range": { "min": 191650, "max": 416700 }, "baseTax": 46643.75 },
+      { "rate": 0.35, "range": { "min": 416700, "max": 418400 }, "baseTax": 120910.25 },
+      { "rate": 0.396, "range": { "min": 418400, "max": "Infinity" }, "baseTax": 121505.25  }
+    ],
+    "marriedFilingJointly": [
+      { "rate": 0.1, "range": { "min": 0, "max": 18650 }, "baseTax": 0 },
+      { "rate": 0.15, "range": { "min": 18650, "max": 75900 }, "baseTax": 18650 },
+      { "rate": 0.25, "range": { "min": 75900, "max": 153100 }, "baseTax": 10452.50 },
+      { "rate": 0.28, "range": { "min": 153100, "max": 233350 }, "baseTax": 29752.50 },
+      { "rate": 0.33, "range": { "min": 233350, "max": 416700 }, "baseTax": 52222.50 },
+      { "rate": 0.35, "range": { "min": 416700, "max": 470700 }, "baseTax": 112728 },
+      { "rate": 0.396, "range": { "min": 470700, "max": "Infinity" } }
+    ],
+    "headOfHousehold": [
+      { "rate": 0.1, "range": { "min": 0, "max": 13350 }, "baseTax": 0 },
+      { "rate": 0.15, "range": { "min": 13350, "max": 50800 }, "baseTax": 1335 },
+      { "rate": 0.25, "range": { "min": 50800, "max": 131200 }, "baseTax": 6952.50 },
+      { "rate": 0.28, "range": { "min": 131200, "max": 212500 }, "baseTax": 27052.50 },
+      { "rate": 0.33, "range": { "min": 212500, "max": 416700 }, "baseTax": 49816.50 },
+      { "rate": 0.35, "range": { "min": 416700, "max": 444500 }, "baseTax": 117202.50 },
+      { "rate": 0.396, "range": { "min": 444500, "max": "Infinity" }, "baseTax": 126950 }
+    ]
+  }
+}

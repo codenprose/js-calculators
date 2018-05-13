@@ -1,0 +1,28 @@
+{
+  "name": "js-calculators",
+  "version": "1.0.0",
+  "description": "a collection of calculators written in javascript",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "calculators"
+  ],
+  "author": "dkh@danielkhunter.com",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "decimal.js": "^7.3.0",
+    "financejs": "^4.1.0",
+    "fraction.js": "^4.0.4",
+    "mathjs": "^3.16.5",
+    "moment-timezone": "^0.5.14"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
