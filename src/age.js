@@ -15,7 +15,14 @@ const differenceInSeconds = require('date-fns/difference_in_seconds')
 * @example
 *
 * age(new Date(97, 0), new Date(2017, 11))
-* // => { years: '', months: '', days: '', hours: '', minutes: '', seconds: '' }
+* // => { years: 20,
+          months: 251,
+          weeks: 1091,
+          days: 7639,
+          hours: 183336,
+          minutes: 11000160,
+          seconds: 660009600 
+        }
 */
 function age(startDate, endDate) {
   if (!startDate || !endDate) {

@@ -9,7 +9,8 @@ A collection of javascript calculator functions
 - `npm install`
 
 ## Playground
-- Run functions in playground script `npm start` or `node playground.js`
+- Run functions in playground script 
+- `npm start` or `node playground.js`
 
 ## Testing
 - `npm test`
